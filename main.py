@@ -116,3 +116,11 @@ max = max(nums)
 min = min(nums)
 
 print(max, min)
+
+"""
+Exercise 11. Removing Duplicates from a List
+Practice Problem: Write a script that takes a list containing duplicate items and returns a new list with only unique elements.
+"""
+data = [1, 2, 2, 3, 4, 4, 4, 5]
+remove = set(data)
+print(remove)
