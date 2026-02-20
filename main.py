@@ -175,3 +175,21 @@ for num in range(1, 6):
         print(num, end=" ")
 
     print("\n")
+
+"""
+Exercise 16. Numerical Palindrome Check
+
+Practice Problem: Write a program to check if a given number is a palindrome (reads the same forwards and backwards).
+"""
+
+
+def check_palindrome(number):
+    original_str = str(number)
+    reversed_str = original_str[::-1]
+    if original_str == reversed_str:
+        print("Yes")
+    else:
+        print("No")
+
+check_palindrome(121)
+check_palindrome(125)
