@@ -92,3 +92,17 @@ Practice Problem: Write a program that takes a string and reverses it (e.g., “
 """
 given_string = "Python"
 print(given_string[::-1])
+
+"""
+Exercise 9. Vowel Frequency Counter
+
+Practice Problem: Write a program to count the total number of vowels (a, e, i, o, u) present in a given sentence.
+"""
+vowels = "aeiou"
+sentence = "Learning Python is fun!"
+count = 0
+for char in sentence.lower():
+    if char in vowels:
+        count += 1
+
+print(count)
