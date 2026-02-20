@@ -27,3 +27,15 @@ for i in range(10):
     print(f"Current number: {i} Previous Number {prev} Sum: {sum} ")
 
     prev = i
+
+"""
+Exercise 3. String Indexing and Even Slicing
+Practice Problem: Display only those characters which are present at an even index number in given string.
+"""
+rstr = "Python programming"
+print("Original string is ", rstr)
+
+even_chars = rstr[0::2]
+print("Printing only even index chars")
+for char in even_chars:
+    print(char)
