@@ -14,3 +14,16 @@ def intake_number(num1, num2):
     
 res = intake_number(20, 30)
 print(res)
+
+"""
+Exercise 2. Cumulative Sum of a Range
+
+Practice Problem: Iterate through the first 10 numbers (0–9).
+ In each iteration, print the current number, the previous number, and their sum.
+"""
+prev = 0
+for i in range(10):
+    sum = prev + i
+    print(f"Current number: {i} Previous Number {prev} Sum: {sum} ")
+
+    prev = i
