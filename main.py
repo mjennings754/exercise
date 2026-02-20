@@ -65,3 +65,14 @@ b = 10
 print(a, b)
 a, b = b, a
 print(a, b) 
+
+"""
+Exercise 6. Calculating Factorial with a Loop
+ractice Problem: Write a program that calculates the factorial of a given number (e.g., 5!) using a for loop.
+
+"""
+num = 5
+factorial = 1
+for i in range(1, num + 1):
+    factorial = factorial * i
+print(f"The factorial of {num} is {factorial}")
