@@ -69,10 +69,19 @@ print(a, b)
 """
 Exercise 6. Calculating Factorial with a Loop
 ractice Problem: Write a program that calculates the factorial of a given number (e.g., 5!) using a for loop.
-
 """
 num = 5
 factorial = 1
 for i in range(1, num + 1):
     factorial = factorial * i
 print(f"The factorial of {num} is {factorial}")
+
+"""
+Exercise 7. List Manipulation: Add and Remove
+
+Practice Problem: Create a list of 5 fruits. Add a new fruit to the end of the list, then remove the second fruit (at index 1).
+"""
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+fruits[-1] = "fig"
+fruits.pop(1)
+print(fruits)
