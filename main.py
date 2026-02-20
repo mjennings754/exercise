@@ -39,3 +39,17 @@ even_chars = rstr[0::2]
 print("Printing only even index chars")
 for char in even_chars:
     print(char)
+
+"""
+Exercise 4. String Slicing and Substring Removal
+
+Practice Problem: Write a function to remove characters from a string starting from index 0 up to n and return a new string.
+"""
+
+def remove_char(word, n):
+    print(word)
+
+    res = word[n:]
+    return res
+
+print(remove_char("Python", 4))
