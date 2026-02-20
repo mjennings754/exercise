@@ -164,3 +164,14 @@ Practice Problem: Write a program to find how many times the substring â€œEmmaâ€
 str_x = "Emma is good developer. Emma is a writer"
 count = str_x.count("Emma")
 print(count)
+
+"""
+Exercise 15. Nested Loops for Pattern Generation
+
+Practice Problem: Print the following pattern where each row contains a number repeated a specific number of times based on its value.
+"""
+for num in range(1, 6):
+    for i in range(num):
+        print(num, end=" ")
+
+    print("\n")
